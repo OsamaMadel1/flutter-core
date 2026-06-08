@@ -1,0 +1,126 @@
+{
+  "@@locale": "ar",
+  "@@last_modified": "2025-01-01",
+
+  "appName": "تطبيقي",
+
+  "ok": "موافق",
+  "cancel": "إلغاء",
+  "save": "حفظ",
+  "delete": "حذف",
+  "edit": "تعديل",
+  "add": "إضافة",
+  "close": "إغلاق",
+  "confirm": "تأكيد",
+  "back": "رجوع",
+  "next": "التالي",
+  "done": "تم",
+  "retry": "إعادة المحاولة",
+  "refresh": "تحديث",
+  "search": "بحث",
+  "clear": "مسح",
+  "submit": "إرسال",
+  "continueText": "متابعة",
+  "skip": "تخطي",
+  "yes": "نعم",
+  "no": "لا",
+
+  "loading": "جار التحميل...",
+  "pleaseWait": "الرجاء الانتظار...",
+  "noData": "لا توجد بيانات",
+  "noResults": "لا توجد نتائج",
+  "error": "خطأ",
+  "success": "نجاح",
+  "warning": "تحذير",
+  "info": "معلومات",
+
+  "generalError": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+  "networkError": "لا يوجد اتصال بالإنترنت. يرجى التحقق من شبكتك.",
+  "serverError": "خطأ في الخادم. يرجى المحاولة لاحقًا.",
+  "timeoutError": "انتهت مهلة الطلب. يرجى المحاولة مرة أخرى.",
+  "unauthorizedError": "انتهت جلستك. يرجى تسجيل الدخول مجددًا.",
+
+  "login": "تسجيل الدخول",
+  "logout": "تسجيل الخروج",
+  "register": "إنشاء حساب",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "forgotPassword": "نسيت كلمة المرور؟",
+  "resetPassword": "إعادة تعيين كلمة المرور",
+  "fullName": "الاسم الكامل",
+  "username": "اسم المستخدم",
+  "phoneNumber": "رقم الهاتف",
+  "createAccount": "إنشاء حساب",
+  "alreadyHaveAccount": "لديك حساب بالفعل؟ سجل الدخول",
+  "dontHaveAccount": "ليس لديك حساب؟ سجل الآن",
+
+  "emailRequired": "البريد الإلكتروني مطلوب",
+  "emailInvalid": "يرجى إدخال بريد إلكتروني صحيح",
+  "passwordRequired": "كلمة المرور مطلوبة",
+  "passwordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+  "passwordsDoNotMatch": "كلمتا المرور غير متطابقتين",
+  "nameRequired": "الاسم مطلوب",
+  "phoneRequired": "رقم الهاتف مطلوب",
+  "fieldRequired": "هذا الحقل مطلوب",
+
+  "home": "الرئيسية",
+  "profile": "الملف الشخصي",
+  "settings": "الإعدادات",
+  "notifications": "الإشعارات",
+  "messages": "الرسائل",
+  "favorites": "المفضلة",
+  "history": "السجل",
+  "help": "المساعدة",
+  "about": "حول التطبيق",
+  "terms": "شروط الخدمة",
+  "privacy": "سياسة الخصوصية",
+  "contact": "تواصل معنا",
+
+  "language": "اللغة",
+  "theme": "المظهر",
+  "darkMode": "الوضع الداكن",
+  "lightMode": "الوضع الفاتح",
+  "systemTheme": "إعداد النظام",
+  "fontSize": "حجم الخط",
+  "notifications_settings": "إعدادات الإشعارات",
+  "account": "الحساب",
+  "security": "الأمان",
+  "changePassword": "تغيير كلمة المرور",
+  "deleteAccount": "حذف الحساب",
+
+  "welcomeBack": "مرحبًا بعودتك، {name}!",
+  "@welcomeBack": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "itemCount": "{count, plural, =0{لا توجد عناصر} =1{عنصر واحد} =2{عنصران} few{{count} عناصر} many{{count} عنصرًا} other{{count} عنصر}}",
+  "@itemCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "notificationsCount": "{count, plural, =0{لا توجد إشعارات} =1{إشعار واحد} =2{إشعاران} few{{count} إشعارات} many{{count} إشعارًا} other{{count} إشعار}}",
+  "@notificationsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "deleteConfirmation": "هل أنت متأكد من حذف {item}؟",
+  "@deleteConfirmation": {
+    "placeholders": {
+      "item": { "type": "String" }
+    }
+  },
+
+  "lastUpdated": "آخر تحديث: {date}",
+  "@lastUpdated": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  }
+}
