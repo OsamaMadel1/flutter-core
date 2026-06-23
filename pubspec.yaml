@@ -13,27 +13,35 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+    
+  intl: ^0.20.0
+  shared_preferences: ^2.2.3
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  connectivity_plus: ^7.1.1
+  dartz: ^0.10.1
+  firebase_core: ^4.11.0
+  cloud_firestore: ^6.6.0
+  dio: ^5.9.2
+  firebase_auth: ^6.5.3
 
-  # State Management
+
   flutter_riverpod: ^2.5.1
   riverpod_annotation: ^2.3.5
-
-  intl: ^0.20.0
-
-  # Theme Persistence
-  shared_preferences: ^2.2.3
-
-  # Typography
-  google_fonts: ^6.2.1
-
-  cupertino_icons: ^1.0.8
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
   flutter_lints: ^6.0.0
-  riverpod_generator: ^2.4.0
-  build_runner: ^2.4.9
+
+  riverpod_generator: ^2.3.5
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.0
+
 
 flutter:
   generate: true
